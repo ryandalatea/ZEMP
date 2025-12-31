@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Product, Review } from './types';
+import { Product, Review } from './types.ts';
 
 export const MAIN_PRODUCT: Product = {
   id: 'ozempic-1mg',
