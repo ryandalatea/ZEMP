@@ -60,7 +60,7 @@ const App: React.FC = () => {
                   </div>
                 </div>
                 <div className="bg-blue-50 border-l-4 border-blue-600 p-4 text-xs md:text-sm text-blue-900 italic leading-relaxed rounded-r-lg">
-                  A partir de 22/07 o Ozempic só com receita, mas até lá tá saindo de R$ 998,98 por <span className="font-bold text-blue-700">{formatPrice(MAIN_PRODUCT.currentPrice)}</span>. Última chance antes da ANVISA exigir receitas.
+                  A partir de 22/07 o Ozempic só com receita, mas até lá tá saindo de {formatPrice(MAIN_PRODUCT.originalPrice)} por <span className="font-bold text-blue-700">{formatPrice(MAIN_PRODUCT.currentPrice)}</span>. Última chance antes da ANVISA exigir receitas.
                 </div>
               </div>
 

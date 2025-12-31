@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { BRAZILIAN_STATES } from '../constants';
+import { BRAZILIAN_STATES } from '../constants.tsx';
 
 const PrescriptionForm: React.FC = () => {
   const [cpf, setCpf] = useState('');

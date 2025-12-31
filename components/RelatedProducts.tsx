@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { RELATED_PRODUCTS } from '../constants';
+import { RELATED_PRODUCTS } from '../constants.tsx';
 
 const RelatedProducts: React.FC = () => {
   return (

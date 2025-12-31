@@ -54,7 +54,10 @@
 </head>
 <body class="bg-gray-50">
     <div id="root"></div>
-    <!-- Carrega o index.tsx como um módulo transpilado pelo Babel -->
+    <!-- Carrega o index.tsx como um script do Babel -->
+    <script type="text/babel" data-type="module">
+      // O código do index.tsx será injetado aqui ou carregado abaixo
+    </script>
     <script type="text/babel" data-type="module" src="./index.tsx"></script>
 </body>
 </html>
